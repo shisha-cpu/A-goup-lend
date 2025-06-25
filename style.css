@@ -49,6 +49,26 @@ margin-top: 10px;
 
 
 }
+
+@media (max-width:1200px) {
+    .thir-block{
+   margin-top: -50px !important;
+   margin-left: -390px !important;
+   max-height: 210px !important;
+   
+}
+}
+@media (max-width:960px) {
+    .thir-block{
+   margin-top: -150px !important;
+   margin-left: -200px !important;
+   max-height: 310px !important;
+   
+}
+}
+.bg-green{
+    background-color: #45a049 !important;
+}
 .homeImage-section2 img{
     max-width: 400px;
 }
@@ -62,11 +82,36 @@ padding-top: 13px;
     width: 30px !important;
 margin-left: 10px !important;
 }
+.map{
+    width: 1400px;
+    margin:  0 auto;
+  
+    text-align: center;
+
+}
+.map img{
+    width: 700px;
+}
+
 @media (max-width:720px) {
     .contactIcon{
     width: 30px !important;
     margin: 0;
     margin-top: 50px;
+}
+.map{
+    width: auto;
+    margin:  0 auto;
+  
+    text-align: center;
+
+}
+.img-bottom{
+    width: 150px !important;
+    margin-left: 20px;
+}
+.map img{
+    width: 95svw;
 }
 }
 
