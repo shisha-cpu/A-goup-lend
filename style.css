@@ -97,7 +97,9 @@ margin-left: 10px !important;
 .map img{
     width: 700px;
 }
-
+.img-bottom{ 
+    width: 300px !important;
+}
 @media (max-width:720px) {
     .contactIcon{
     width: 30px !important;
@@ -332,7 +334,9 @@ margin-left: 10px !important;
     margin: 0 auto;
     transition: background-color 0.3s;
   }
-  
+  .none{
+    display: none !important;
+  }
   .form-button:hover {
     background-color: #2a67b5;
   }
