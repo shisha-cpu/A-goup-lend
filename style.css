@@ -29,6 +29,13 @@ justify-content: center;
     font-weight: 500;
     margin-top: -20px;
 }
+.long-tetx{
+    /* background-color: red;
+    min-width: 700px;
+    margin-left: -100px !important;
+    margin:  0 auto; */
+    white-space: nowrap !important;
+}
 .homeImage-section{
     display: flex;
     justify-content: center;
